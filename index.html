@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeShop - Premium Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">LuxeShop</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <button class="icon-btn" id="searchBtn">🔍</button>
+                <button class="icon-btn" id="themeToggle">🌙</button>
+                <button class="icon-btn" id="cartBtn">
+                    🛒
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Discover Premium Fashion</h1>
+        <p>Elevate your style with our exclusive collection</p>
+        <button class="cta-btn">Shop Now</button>
+    </section>
+
+    <!-- Products Section -->
+    <div class="container" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products-grid" id="productsGrid"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#shipping">Shipping Info</a>
+                <a href="#returns">Returns</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">t</a>
+                <a href="#" class="social-icon">i</a>
+            </div>
+            <p style="color: var(--text-secondary);">&copy; 2024 LuxeShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">Added to cart!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
